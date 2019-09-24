@@ -20,18 +20,6 @@ function splitScroll() {
 
 // }
 
-// function copy() {
-//     let copyText = document.getElementById('nomortelp');
-
-//     copyText.select();
-//     copyText.setSelectionRange(0, 99999);
-
-//     document.execCommand("copy");
-
-//     alert("Copied to Clipboard\n" + copyText.value)
-
-// }
-
 function swipe() {
     var swiper = new Swiper('.swiper-container', {
         effect: 'coverflow',
